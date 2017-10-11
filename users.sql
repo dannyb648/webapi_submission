@@ -9,4 +9,5 @@ CREATE TABLE users(
   ,address_second_line VARCHAR(200)
   ,address_third_line VARCHAR(200)
   ,post_code     VARCHAR(10) NOT NULL
+  ,permissions_code  VARCHAR(2) NOT NULL
 );
